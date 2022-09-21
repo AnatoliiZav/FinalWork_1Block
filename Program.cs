@@ -14,3 +14,5 @@
   return result;
 }
 
+string[] arr = { "45", "Monday", "Hello", "P2P", "=G4", "Version", "I" };
+Console.WriteLine($"[{String.Join(", ", Main(arr))}]");
